@@ -1,0 +1,116 @@
+*{
+    background-color: skyblue;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Abel';
+}
+
+.title{
+    margin: 15px 100px;
+    background-color: rgb(237, 237, 202, 10);
+    color: black;
+    border: 5px solid black;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 80px;
+    text-align: center;
+
+}
+
+.instruction{
+    margin: 10px 100px;
+    height: 135px;
+    
+}
+
+#instructions{
+    font-size: 21px;
+    text-align: center;
+}
+
+.game-area{
+    margin-top: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.game-area .player-choice-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.player-choice-box .box-1 img:hover,
+.player-choice-box .box-2 img:hover,
+.player-choice-box .box-3 img:hover{
+    border: 10px solid red;
+}
+
+#comment{
+    align-self: center;
+    justify-self: center;
+    font-size: 25px;
+}
+
+.box-1 img, .box-2 img, .box-3 img {
+    border: 2px solid black;
+    border-radius: 5px ;
+
+}
+
+.scorebox{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.scorebox .wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#player-score,
+#comp-score{
+    font-size: 50px;
+    background-color: rgb(237, 237, 202, 10);
+    padding: 0px 15px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+
+#winner{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 100px ;
+}
+
+.footer{
+    text-align: center;
+    font-weight: bold;
+    border-top: 2px solid black;
+    background-color: rgb(237, 237, 202, 10);
+    padding-bottom: 100%;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.buttons img{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.buttons img:hover{
+    width:51px;
+    height:51px;
+}

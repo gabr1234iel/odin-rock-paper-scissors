@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+    <title>A Rock Paper Scissors Game</title>
+</head>
+<body>
+    <div class="header">
+        <div class="title">Rock Paper Scissors</div>
+    </div>
+
+    <div class="buttons">
+        <img src="./img/restart.png" alt="restart" id="restart" width="50px" height="50px">
+        <img src="./img/info.png" alt="info" id="info" width="50px" height="50px">
+    </div>
+
+    <div class="instruction">
+        <div id="instructions"></div>
+    </div>
+    
+    <div class="game-area">
+        <div class="player-choice-box">
+            <div class="box-1">
+                <img src="./img/rock.jpeg" alt="rock img" width="100px" height="100px" id="player-rock">
+            </div>
+            <div class="box-2">
+                <img src="./img/paper.avif" alt="paper img" width="100px" height="100px" id="player-paper">
+            </div>
+            <div class="box-3">
+                <img src="./img/scissors.jpeg" alt="scissors img" width="100px" height="100px" id="player-scissors">
+            </div>
+        </div>
+
+        <p id="comment"></p>
+        
+        <div class="comp-choice-box">
+            <div class="box-1">
+                <img src="./img/rock.jpeg" alt="rock img" width="100px" height="100px" id="comp-rock">
+            </div>
+            <div class="box-2">
+                <img src="./img/paper.avif" alt="paper img" width="100px" height="100px" id="comp-paper">
+            </div>
+            <div class="box-3">
+                <img src="./img/scissors.jpeg" alt="scissors img" width="100px" height="100px" id="comp-scissors">
+            </div>
+        </div>
+    </div>
+
+    <div class="scorebox">
+        <div class="wrapper">
+            <div id="player-score">0</div>
+            <div class="player-tag">Player</div>
+        </div>
+        <div class="wrapper">
+            <div id="comp-score">0</div>
+            <div class="comp-tag">Comp</div>
+        </div>
+    </div>
+    <div id="winner">first to 5 wins</div>
+
+    
+
+    
+    
+    <div class="footer">
+        Created by gabr1234iel
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
